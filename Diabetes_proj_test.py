@@ -32,8 +32,8 @@ new_input = pd.DataFrame({
       
 })
 
-
-pipe=pickle.load(open('pipe_pkl1','rb'))
+pickle_in=open('pipe_pkl1','rb')
+pipe=pickle.load(pickle_in)
 
 prediction = pipe.predict(new_input)
 if (prediction[0]==1):
