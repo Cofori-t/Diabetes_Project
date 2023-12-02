@@ -71,7 +71,8 @@ with st.container():
 #pipe=pickle.load(open('WBS/ML/pipe.pkl1','rb'))
 #load model and create new dataframe
 with st.container():
-    pipe=pickle.load(open('WBS/ML/pipe_pkl1','rb'))
+    #pipe=pickle.load(open('WBS/ML/pipe_pkl1','rb'))
+    pipe=pickle.load(open('pipe_pkl1','rb'))
 
 # create a botton for prediction
 
