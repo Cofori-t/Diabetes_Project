@@ -82,7 +82,7 @@ with st.container():
     
 
 #st.markdown("# Results ")
-st.markdown("## Results ")
+st.markdown("### Results ")
 if st.sidebar.button('Submit Answers'):
   if (prediction[0]==1):
     st.write("# Yes!!!! likely of been Diabetic")
