@@ -96,9 +96,12 @@ with st.container():
     st.write("---")
     st.title("Conclusion")
     st.write("""
-            This model only detect, if there is a likelihood of being diabetic OR Not and not the Type. 
-            For further diagnosis, PLEASE consult your physician, who will confirm on which type, and remedies to take. 
+            This model only detect, if there is a likelihood of being diabetic OR Not and not the Type.
+            
+            For further diagnosis, PLEASE consult your physician, who will confirm on which type, and remedies to take.
+            
             There are different of Diabetes: TYPES: 1, 2, Pre-diabates, Gestational Diabetes. 
+            
             Symptoms: thirsty, freq. Urination, Weight Loss, fatigue and weakness
             """)
     st.subheader("""[More Information about Diabetes]([https://www.worldpopulationreview.com/country-rankings/diabetes-rates-by-country])""")
