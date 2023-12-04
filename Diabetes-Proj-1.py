@@ -71,7 +71,8 @@ with st.container():
 #pipe=pickle.load(open('WBS/ML/pipe.pkl1','rb'))
 #load model and create new dataframe
 with st.container():
-    pipe=pickle.load(open('WBS/ML/pipe_pkl1','rb'))
+    #pipe=pickle.load(open('WBS/ML/pipe_pkl1','rb'))
+    pipe=pickle.load(open('pipe_pkl1','rb'))
 
 # create a botton for prediction
 
@@ -81,7 +82,7 @@ with st.container():
     
 
 #st.markdown("# Results ")
-st.markdown("## Results ")
+st.markdown("# Results ")
 if st.sidebar.button('Submit Answers'):
   if (prediction[0]==1):
     st.write("# Yes!!!! likely of been Diabetic")
@@ -94,7 +95,15 @@ with st.container():
     #add a divider
     st.write("---")
     st.title("Conclusion")
-    st.write("This model only detect, if there is a likelihood of being diabetic OR Not and not the Type. For further diagnosis, PLEASE consult your physician, who will confirm on which type, and remedies to take. There are different of Diabetes: TYPES: 1, 2, Pre-diabates, Gestational Diabetes. Symptoms: thirsty, freq. Urination, Weight Loss, fatigue and weakness")
+    st.write("""
+            This model only detect, if there is a likelihood of being diabetic OR Not and not the Type.
+            
+            For further diagnosis, PLEASE consult your physician, who will confirm on which type, and remedies to take.
+            
+            There are different of Diabetes: TYPES: 1, 2, Pre-diabates, Gestational Diabetes. 
+            
+            Symptoms: thirsty, freq. Urination, Weight Loss, fatigue and weakness
+            """)
     st.subheader("""[More Information about Diabetes]([https://www.worldpopulationreview.com/country-rankings/diabetes-rates-by-country])""")
     st.subheader("""[Data source](https://www.kaggle.com/code/jayrdixit/diabetes-prediction/input?select=diabetes_prediction_dataset.csv)""")
     
