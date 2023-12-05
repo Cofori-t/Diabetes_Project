@@ -61,7 +61,7 @@ with st.container():
 
 
 with st.container():
-    pipe=pickle.load(open('WBS/ML/pipe_pkl1','rb'))
+    pipe=pickle.load(open('pipe_pkl1','rb'))
     
     prediction = pipe.predict(new_input)
     
