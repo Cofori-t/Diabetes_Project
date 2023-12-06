@@ -1,4 +1,3 @@
-l
 import streamlit as st
 import sklearn
 import pickle
