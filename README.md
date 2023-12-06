@@ -12,7 +12,7 @@ Dependent Var:
 Gender, Age, Hypertension(Blood-Pressure), Heart Disease, Body Mass Index (BMI), Smoking history, HbA1c level, and Blood Glucose Level
 
 Target Var: 
-Diabetes. (Categorical outcome)
+Diabetes. (Binary outcome)
 
 Machine Learning Algorithm using Logistic Regression Model.
 
