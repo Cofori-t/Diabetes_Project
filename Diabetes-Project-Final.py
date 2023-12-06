@@ -86,7 +86,7 @@ with st.container():
     
     st.title("Conclusion")
     st.write("""
-             This model only detect, if there is a likelihood of being diabetic OR Not. 
+             This App only detect, if there is a likelihood of being diabetic OR Not. 
              
              There are different of Types of Diabetes namely:
              
