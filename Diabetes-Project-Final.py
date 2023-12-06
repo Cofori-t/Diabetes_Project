@@ -92,7 +92,11 @@ with st.container():
              
              TYPES: 1, 2, Pre-diabates, Gestational Diabetes.
              
-             For further diagnosis, PLEASE consult your physician, who will confirm on which type, and remedies to take.   
+             For further diagnosis, PLEASE consult your physician, who will:
+             
+             1. confirm on the Type, 
+             
+             2. give the needed Care Advice.   
              
              """)
     
