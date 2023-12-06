@@ -17,6 +17,7 @@ Diabetes. (Binary outcome)
 Machine Learning Algorithm using Logistic Regression Model.
 
 #Conclusion
+
 This model only detect, if there is a likelihood of being diabetic OR Not. 
              
 There are different of Types of Diabetes namely:
