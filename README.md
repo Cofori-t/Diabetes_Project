@@ -9,9 +9,11 @@ According to the International Diabetes Federation (IDF) data, 537 million peopl
 As my project work, I have created a model that could be used to predict the likelihood of Diabetes in patients based on their Medical history and Demographic details.:
 
 Dependent Var: 
+
 Gender, Age, Hypertension(Blood-Pressure), Heart Disease, Body Mass Index (BMI), Smoking history, HbA1c level, and Blood Glucose Level
 
 Target Var: 
+
 Diabetes. (Binary outcome)
 
 Machine Learning Algorithm using Logistic Regression Model.
