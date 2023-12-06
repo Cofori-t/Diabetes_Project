@@ -19,12 +19,12 @@ Machine Learning Algorithm using Logistic Regression Model.
 #Conclusion
 This model only detect, if there is a likelihood of being diabetic OR Not. 
              
-             There are different of Types of Diabetes namely:
+There are different of Types of Diabetes namely:
              
-             TYPES: 1, 2, Pre-diabates, Gestational Diabetes.
+TYPES: 1, 2, Pre-diabates, Gestational Diabetes.
              
-             For further diagnosis, PLEASE consult your physician, who will:
+For further diagnosis, PLEASE consult your physician, who will:
              
-             1. confirm on the Type, 
+1. confirm on the Type, 
              
-             2. give the needed Care Advice.   
+2. give the needed Care Advice.   
