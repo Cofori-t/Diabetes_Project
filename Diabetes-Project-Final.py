@@ -33,7 +33,7 @@ Machine Learning Algorithm using Logistic Regression Model.
 
 with st.container():
    
-    st.sidebar.subheader(" :blue[1. Complete: questionnaire\n  2. Click on: Submit Answers]")
+    st.sidebar.subheader(" :blue[1. Complete: questionnaire  2. Click on: Submit Answers]")
     st.sidebar.write("##")
     
 age = st.sidebar.slider('What is your age:blue[[Years]]?',1, 80, 3, 1)
